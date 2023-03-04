@@ -1,0 +1,82 @@
+.panelist{
+    padding: 5vh 5vw;
+    text-align: center;
+}
+
+.accordion-header button{
+    font-size: 2.5vw;
+}
+
+.panel-content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.panel-content img{
+    width: 30vw;
+    height: 30vw;
+    border-radius: 10%;
+}
+
+.panel-content img:hover{
+    filter: brightness(70%);
+}
+
+.panel-content text{
+    width: 50vw;
+    margin-bottom: auto
+}
+
+.panel-content text button{
+    margin-top: 3vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .panelist{
+        padding: 5vh 2vw;
+    }
+
+    .accordion-header{
+        margin-bottom: 4vw;
+    }
+
+    .panel-content{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .revImg{
+        flex-direction: column-reverse;
+    }
+
+    .panel-content img{
+        width: 95%;
+        height: 45vh;
+        padding: 0 7vw;
+        border-radius: 3vw;
+        margin-bottom: 2vh;
+    }
+
+    .panel-content text{
+        width: 100%;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        text-align: justify;
+    }
+
+    .panel-content text strong{
+        display: inherit;
+        text-align: center;
+    }
+
+    .pn-btn{
+        font-size: 4vw;
+    }
+
+    .accordion-header button{
+        font-size: 6vw;
+    }
+}

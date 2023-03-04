@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web information -->
+    <link rel="icon" href="assests/img/spelogo.png" />
+    <title>SPE YP symposium</title>
+
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"
+    >
+
+    <link rel="stylesheet" href="./assests/css/index.css">
+    <link rel="stylesheet" href="./assests/css/navbar.css">
+    <link rel="stylesheet" href="./assests/css/header.css">
+    <link rel="stylesheet" href="./assests/css/theme.css">
+    <link rel="stylesheet" href="./assests/css/keynote.css">
+    <link rel="stylesheet" href="./assests/css/speGuest.css">
+    <link rel="stylesheet" href="./assests/css/panelist.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid nv-bar-wrap">
+            <a class="navbar-brand nv-b" href="#">
+                <img src='./assests/img/spelogo.png' alt="spelogo" id="brandlogo"/>
+                <div class="container bl-txt">
+                    <p>Society of Petroleum Engineers</p>
+                    <p>Port Harcourt, Nigeria (Section 103)</p>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse nls" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About SPE</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Symposium
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#panelist-section">Panelist</a></li>
+                            <li><a class="dropdown-item" href="#shortcourses-section">Short courses</a></li>
+                            <li><a class="dropdown-item" href="#careerfair-section">Career Fair</a></li>
+                            <li><a class="dropdown-item" href="#breakout-session">Breakout session</a></li>
+                        </ul>
+                    </li>
+
+                    <a>
+                        <button type="button" class="btn btn-primary btn-sm" href="https://paystack.com/pay/spes103yp-2023symposium" role="button">REGISTER</button>
+                    </a>                       
+
+                    <div id="demo"></div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h3 class="society">Society of Petroleum Engineers, Port Harcourt (Section 103)</h3>
+
+        <h1>2023 YOUNG PROFESSIONAL SYMPOSIUM</h1>
+
+        <div>
+            <div class="header_icons">
+                <i class="gg-pin"></i>
+                <span>
+                    Casoni International Hotels and Suites Ltd. <br />
+                    (#6 Presbyterian Close, off Stadium Road, PHC.)  
+                </span>
+            </div>
+
+            <br />
+
+            <div class="header_icons">
+                <i class="gg-calendar-dates"></i>
+                <span>Friday, 14th April - Saturday, 15th April 2023</span>
+            </div>
+        </div>
+
+        <div class='CountdownTimer'>
+            <span id="cd1"></span>
+            <span id="cd2"></span>
+            <span id="cd3"></span>
+            <span id="cd4"></span>
+        </div>
+
+        <div class="header-buttons">
+            <button type="button" class="btn btn-danger btn-sm" href="#" role="button">REGISTER</button>
+            <button type="button" class="btn btn-info btn-sm" href="#" role="button">DOWNLOAD BROCHURE</button>
+            <a href='https://getdp.co/gNR'>
+                <button type="button" class="btn btn-warning btn-sm" href="#" role="button">CREATE PERSONALISED FLYER</button>
+            </a>
+        </div>
+    </header>
+
+    <section class="theme">
+        <div>
+            <h3>
+                <span>Theme:</span> <span>Secure and Sustainable Energy:</span> <span>Challenges and Opportunities for the Energy Professionals.</span>
+            </h3>
+            <p>
+                Energy is a critical enabler of economic prosperity, sustainable development, and societal health. 
+                In the past decade, the energy industry has made some strides to build more sustainable energy 
+                systems geared towards environmentally friendly society.
+                <br/><br/>
+                However, recent global and geopolitical events have highlighted the need to ensure uninterrupted, 
+                affordable, and accessible energy for human activities. Therefore, it has become pertinent and 
+                absolutely necessary to find technical and smarter ways to reduce our carbon footprint while, at 
+                the same time, expanding and diversifying our energy sources. 
+                <br/><br/>
+                Striking the right balance between energy security and sustainability is thus critical for the industry. 
+                This we hope to digest as we converge.
+                <br/><br/>
+                This symposium program will feature discussions on the ways forward by addressing the current challenges 
+                and opportunities in the industry and the need to develop solutions that enable secure and sustainable energy
+            </p>
+        </div>
+        <img src='./assests/img/anticipate flyer.jfif'/>
+    </section>
+
+    <section class="keynoteSpeaker-container">
+        <h2 class='section-title'>KEYNOTE SPEAKER</h2>
+        <div class="keynoteSpeaker-flexbox">
+            <div class="keynoteSpeaker-headshot">
+                <img src='./assests/img/keynote.jfif' alt="keynote speaker" id="keynoteHeadshot"/>
+                <a href='https://www.linkedin.com/in/med-kamal-77078327/'>
+                    <img class="linkedIn-btn" src='./assests/img/linkedin-logo.png' id='keynote-linkedIn'/>
+                </a>
+            </div>
+
+            <div class="keynoteSpeaker-text">
+                <h3> <strong>Med Kamal</strong> (2023 SPEi President)</h3>
+                <p>
+                    Medhat (Med) M. Kamal is a Chevron Fellow Emeritus and an Honorary Member of SPE. 
+                    He had previously worked for Cairo University, Amoco Production Company, Flopetrol Schlumberger, 
+                    and ARCO Exploration and Production Company. Kamal has over 45 years of industry experience in well testing, 
+                    reservoir description, and production and reservoir engineering. He is the lead author and editor of SPE 
+                    Monograph 23 “Transient Well Testing”, and has published more than 35 technical papers in various SPE journals. 
+                    He holds B.Sc. degree (with Honors) from Cairo University in Petroleum Engineering and MS and PhD degrees from 
+                    Stanford University in Petroleum Engineering with a minor in Computer Science. He served on the boards of 
+                    directors of Mid-continent, Gulf Coat, Dallas and Golden gate sections of SPE and chaired the Dallas and Golden 
+                    Gate Sections. He also served on the SPE International Board of Directors (2007-2009) as the Regional Director 
+                    of Western North America. 
+                    Kamal is a distinguished lecturer for SPE (1997-1998 and 2018-2019) where he presented his lectures more than 80 times in 30 countries. 
+                    He served as member and chairman of SPE Annual Meeting Well Testing, Text Book and Monograph Committees and as a technical editor, review 
+                    chairman and executive editor of SPE Journal of Petroleum Technology (JPT) and Reservoir Evaluation and Engineering Journal (SPEREE). 
+                    Kamal chaired the first SPE conference on R&D (San Antonio 2007) and the Western Regional Meeting (2019). He has won several regional and 
+                    international awards including the Cedric K. Ferguson Medal, the Formation Evaluation Award, SPE Distinguished Service Award, SPE North and 
+                    East Texas Regional Service Award and the Texas Petroleum Engineer of the Year Award. 
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="special_Guest_container">
+        <h2>SPECIAL GUEST OF HONOUR</h2>
+
+        <div class="sg-cards">
+            <div class="card sgcard-item">
+                <img src='./assests/img/effiom.jpg' class="sgcard-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Oghogho Effiom</h5>
+                    <p class="card-text">
+                        Oghogho Effiom is the Regional Director, Africa for Society of Petroleum Engineers, 
+                        sitting on the SPE International Board. Oghogho has over 22 years of technical experience in the 
+                        Upstream oil and gas businesses with ... 
+                    </p>
+                    <a href="#" class="btn btn-primary sgcard-btn">View more</a>
+                </div>
+            </div>
+
+            <div class="card sgcard-item">
+                <img src='./assests/img/felix.jfif' class="sgcard-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Felix Obike</h5>
+                    <p class="card-text">
+                        Oghogho Effiom is the Regional Director, Africa for Society of Petroleum Engineers, 
+                        sitting on the SPE International Board. Oghogho has over 22 years of technical experience in the 
+                        Upstream oil and gas businesses with ... 
+                    </p>
+                    <a href="#" class="btn btn-primary sgcard-btn">View more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="panelist" id='panelist-section'>
+        <h2>PANEL SESSION</h2>
+        <p>Meet our Panelists</p>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseOne" 
+                        aria-expanded="true" 
+                        aria-controls="collapseOne">
+                        1.	Johnbosco Uche (FNAPE)
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body panel-content">
+                        <img src='./assests/img/uche.jpg'/>
+                        <text>
+                            <strong>Energy Transition Business Opportunity Manager for Shell Companies, Nigeria:</strong> <br />
+                            Johnbosco Uche (JB) is the Energy Transition Business Opportunity Manager for Shell Companies in Nigeria. 
+                            He also doubles as Front-End Development Manager and Project Leader in Shell Petroleum Development Company 
+                            of Nigeria (SPDC). 
+                            JB is a Geological Science graduate of Nnamdi Azikiwe University Awka. He obtained his Master’s in Business 
+                            Administration (MBA) from Edinburgh Business School, Heriot-Watt University, Scotland. 
+                            JB has acquired over 22 years’ experience in the energy industry working for Shell, CONOIL Producing, and 
+                            Halliburton across technical and business roles. Since joining Shell in 2005, he has worked as Exploration 
+                            Geoscientist & Team Lead in SPDC Nigeria, Shell Netherlands, Shell United-Kingdom, and most recently as Shell 
+                            Nigeria Exploration and Production Company (SNEPCo) Exploration Manager between 2018 and 2021.
+                            Johnbosco is a former Vice president and Fellow of Nigerian Association of Petroleum Explorationists (NAPE). 
+                            He is registered with Council of Mining Engineers and Geoscientists (COMEG) and also a member of NMGS, AAPG, 
+                            SEG, EAGE, and PESGB.
+                            Due to his strong passion for organic talent development of young Nigerian Geoscientists, he initiated the 
+                            novel annual NAPE Mentoring Circles for emerging leaders in the industry.
+                            Johnbosco is married with children.
+                            <br />
+                            <a href='https://www.linkedin.com/in/oghogho-effiom/?originalSubdomain=ng'>
+                                <button class="btn btn-primary pn-btn">LinkedIn</button>
+                            </a>
+                        </text>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseTwo" 
+                        aria-expanded="false" 
+                        aria-controls="collapseTwo">
+                        2.	Ifeoma Malo
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body panel-content revImg">
+                        <text>
+                            <strong>Co-Founder/ CEO, Clean Technology Hub Nigeria</strong> <br />
+                            Ifeoma Malo is an organizational management expert with over 23 years experience, building and directing organizational 
+                            policy and strategy in energy and large-scale utility markets, public health, biotechnology, leadership, change management 
+                            and infrastructure finance. She is the Co-Founder/ CEO, of Clean Technology Hub Nigeria.
+                            Clean Technology Hub Nigeria is a pioneering hybrid hub for the research,
+                            Development, demonstration, and incubation of clean and green ideas and technologies in Africa, and their validation for 
+                            commercial-stage development. The Hub was founded in 2016 and is located in Abuja, with virtual hubs spread across the country.
+                            Ifeoma Malo is a Caux Scholar, African Leadership PIA Fellow, Desmond Tutu Fellow,
+                            Crans Montana New Leader Fellow, Acumen West Africa Fellow and also the Global
+                            Leadership Academy-We Africa Network. She is a Commonwealth Leaders
+                            Scholar-CSC Leaders. She is also a member of boards that include:GreenPeace
+                            International, Access to Energy Institute (AE21), Extractive 360 and Norrenberger
+                            Financial Services.
+                            <br />
+                            <a href='https://www.linkedin.com/in/ifymalo/?originalSubdomain=ng'>
+                                <button class="btn btn-primary pn-btn">LinkedIn</button>
+                            </a>
+                        </text>
+                        <img src='./assests/img/ifeoma.png'/>                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseThree" 
+                        aria-expanded="false" 
+                        aria-controls="collapseThree">
+                        3.	NJ Ayuk
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body panel-content">
+                        <img src='./assests/img/ayuk.jpg'/>
+                        <text>
+                            <strong>Executive Chairman of the African Energy Chamber, CEO of pan-African corporate law conglomerate Centurion Law Group</strong> <br />
+                            NJ Ayuk is the Executive Chairman of the African Energy Chamber, CEO of
+                            pan-African corporate law conglomerate Centurion Law Group, and the
+                            author of Big Barrels as well as Amazon and Wall Street Journal’s bestselling
+                            Billions at Play: The Future of African Energy and Doing Deals.
+                            His experience includes advising major companies and governments on
+                            energy issues and investment strategies.
+                            NJ graduated from the University of Maryland College Park and earned a
+                            Juris Doctor from William Mitchell College of Law and an MBA from the New
+                            York Institute of Technology.
+                            <br />
+                            <a href='https://www.linkedin.com/in/nj-ayuk-jd-mba-6658662/'>
+                                <button class="btn btn-primary pn-btn">LinkedIn</button>
+                            </a>
+                        </text>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseFour" 
+                        aria-expanded="false" 
+                        aria-controls="collapseFour">
+                        4.	Speaker name
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body panel-content revImg">
+                        <text>
+                            <strong>Spaker's portfolio</strong> <br />
+                            Experienced Well Engineer with a demonstrated history of working in the oil & energy industry. 
+                            Skilled in Gas, Petroleum, Well Construction, Well Stimulation, and Oil & Gas. 
+                            Strong engineering professional with a Master's degree focused in Energy and Petroleum Economics from Delta State University (NG). 
+                            Skilled also in Well Integrity Management and Well Intervention
+                            <br />
+                            <button class="btn btn-primary pn-btn">View more</button>
+                        </text>
+                        <img src='./assests/img/uche.jpg'/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#collapseFive" 
+                        aria-expanded="false" 
+                        aria-controls="collapseFive">
+                        5.	Speaker name
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body panel-content">
+                        <img src='./assests/img/uche.jpg'/>
+                        <text>
+                            <strong>Spaker's portfolio</strong> <br />
+                            Experienced Well Engineer with a demonstrated history of working in the oil & energy industry. 
+                            Skilled in Gas, Petroleum, Well Construction, Well Stimulation, and Oil & Gas. 
+                            Strong engineering professional with a Master's degree focused in Energy and Petroleum Economics from Delta State University (NG). 
+                            Skilled also in Well Integrity Management and Well Intervention
+                            <br />
+                            <button class="btn btn-primary pn-btn">View more</button>
+                        </text>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="./assests/js/CountdownTimer.js"></script>
+</body>
+</html>
