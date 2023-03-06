@@ -52,10 +52,11 @@
         margin: 0;
         margin-bottom: 6vh;
         width: 100%;
+        flex-direction: row;
     }
 
     .sg-cards .sgcard-item img{
-        height: 50vh;
+        height: 40vw;
     }
 
     .sg-cards .sgcard-item .card-body .card-title{
@@ -64,10 +65,11 @@
     }
 
     .sg-cards .sgcard-item .card-body .card-text{
-        font-size: 3vw;
+        font-size: 2.5vw;
+        text-align: justify;
     }
 
-    .sg-cards .sgcard-item .card-body .cd-btn{
-        font-size: 3.5vw;
+    .sg-cards .sgcard-item .card-body .sgcard-btn{
+        font-size: 2vw;
     }
 }
