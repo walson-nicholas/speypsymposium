@@ -15,7 +15,7 @@
 }
 
 .card-item img{
-    height: 40vw;
+    height: 20vw;
 }
 
 .card-item img:hover{
@@ -51,9 +51,16 @@
     .card-title{
         font-size: 3vw;
         font-weight: bolder;
+        margin-bottom: 1vw;
     }
 
     .card-text{
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .card-text-two{        
+        margin-bottom: 1vw; 
         font-size: 3vw;
     }
 
