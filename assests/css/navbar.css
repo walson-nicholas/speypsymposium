@@ -1,10 +1,15 @@
 nav{
     box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.25);
-    padding: 1vw 3vw;
+    padding: 1vw 0;
+}
+
+.inNav{
+    align-items: center;
+    text-align: center;
 }
 
 #brandlogo{
-    height: 5vw;
+    height: 3vw;
 }
 
 .navbar-nav, .dropdown-item{
@@ -23,12 +28,12 @@ nav{
 }
 
 .bl-txt p:nth-of-type(1){
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     margin-bottom: 0;
 }
 
 .bl-txt p:nth-of-type(2){
-    font-size: 1vw;
+    font-size: 0.9vw;
     margin-bottom: 0;
 }
 
@@ -67,6 +72,7 @@ nav{
     .navbar-nav, .dropdown-item{
         font-size: 3.5vw;
         padding: 0 5vw;
+        align-items: flex-start;
     }
 
     .nv-bar-wrap{

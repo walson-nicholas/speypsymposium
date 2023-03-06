@@ -43,25 +43,25 @@
             </button>
 
             <div class="collapse navbar-collapse nls" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav inNav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Panel Speakers</a>
+                        <a class="nav-link active" href="#">Panel Speakers</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Breakout session</a>
+                        <a class="nav-link active" href="#">Breakout session</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Short courses</a>
+                        <a class="nav-link active" href="#">Short courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Career Fair</a>
+                        <a class="nav-link active" href="#">Career Fair</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Debate</a>
+                        <a class="nav-link active" href="#">Debate</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About SPE</a>
+                        <a class="nav-link active" href="#">About SPE</a>
                     </li>
 
                     <a>
@@ -379,6 +379,49 @@
             </div>
         </div>
     </section>
+
+    <section class="shortCourses-container" id='shortcourses-section'>
+        <h1>SHORT COURSES</h1>
+        <p id='inviteText'>Join us for a short course in your favourite area</p>
+        <div class="sc-cards">
+            <div class="card card-item">
+                <img src="./assests/" class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Fundamentals of Machine Learning in the Energy Industry </h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary cd-btn">View more</a>
+                </div>
+            </div>
+
+            <div class="card card-item">
+                <img src={excel} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Applications of Microsoft Excel in the Energy Industry</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary cd-btn">View more</a>
+                </div>
+            </div>
+
+            <div class="card card-item">
+                <img src={block} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Blockchain in Energy and Sustainability</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary cd-btn">View more</a>
+                </div>
+            </div>
+
+            <div class="card card-item">
+                <img src={biz} class="card-img-top" alt="..." />
+                <div class="card-body">
+                    <h5 class="card-title">Business Analytics in Project Management</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary cd-btn">View more</a>
+                </div>
+            </div>
+        </div>
+        
+   </section>
 
     <script src="./assests/js/CountdownTimer.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

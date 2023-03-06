@@ -26,12 +26,10 @@ header{
 header .CountdownTimer{
     display: flex;
     justify-content: space-between;
-    font-size: 3vw;
     width: 100%;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
-    font-size: 4.5vw;
+    font-size: 3vw;
+    padding: 3vw;
 }
 
 .CountdownTimer span:nth-of-type(1){
@@ -61,14 +59,6 @@ header .CountdownTimer{
     width: 20vw;
 }
 
-.CountdownTimer{
-    width: 60vw;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    font-size: 3vw;
-}
-
 @media only screen and (max-width: 600px)  {
     header{
         background-position: center;
@@ -93,7 +83,7 @@ header .CountdownTimer{
         width: 25vw;
     }
 
-    .CountdownTimer{
+    header .CountdownTimer{
         font-size: 5vw;
     }
 }
