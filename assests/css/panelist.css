@@ -1,82 +1,77 @@
-.panelist{
-    padding: 5vh 5vw;
+.panel-container{
+    background-color: #DFE0D8;
+    text-align: center;
+    padding: 5vw 0;
+}
+
+.panel-title, .panel-subtitle{
     text-align: center;
 }
 
-.accordion-header button{
-    font-size: 2.5vw;
-}
-
-.panel-content{
+.sc-cards{
     display: flex;
     justify-content: space-between;
-    align-content: center;
-    align-items: center;
 }
 
-.panel-content img{
-    width: 30vw;
-    height: 30vw;
-    border-radius: 10%;
+.card-item{
+    margin: 1vw;
+    width: 35vw;
 }
 
-.panel-content img:hover{
-    filter: brightness(70%);
+.card-item img{
+    height: 40vh;
 }
 
-.panel-content text{
-    width: 50vw;
-    margin-bottom: auto
+.card-item img:hover{
+    filter: brightness(50%);
 }
 
-.panel-content text button{
-    margin-top: 3vw;
+.card-title{
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+
+.card-text{
+    font-size: 1vw;
 }
 
 @media only screen and (max-width: 600px)  {
-    .panelist{
-        padding: 5vh 2vw;
-    }
-
-    .accordion-header{
-        margin-bottom: 4vw;
-    }
-
-    .panel-content{
+    .sc-cards{
         flex-direction: column;
-        align-items: center;
-        padding: 0;
+        padding: 0 5vw;
     }
 
-    .revImg{
-        flex-direction: column-reverse;
-    }
-
-    .panel-content img{
-        width: 95%;
-        height: 45vh;
-        padding: 0 7vw;
-        border-radius: 3vw;
-        margin-bottom: 2vh;
-    }
-
-    .panel-content text{
-        width: 100%;
-        font-size: 4vw;
+    .card-item{
+        margin: 0;
         margin-bottom: 3vw;
-        text-align: justify;
+        width: 100%;
+        flex-direction: row!important;
     }
 
-    .panel-content text strong{
-        display: inherit;
-        text-align: center;
+    .card-item img{
+        padding: 2vw;
+        height: 40vw;
+        max-width: 40vw;
     }
 
-    .pn-btn{
+    .card-body{
+        padding: 2vw;
+    }
+
+    .card-title{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+
+    .card-text{
+        font-size: 3vw;
+    }
+
+    #inviteText{
         font-size: 4vw;
     }
 
-    .accordion-header button{
-        font-size: 6vw;
+    .cd-btn{
+        font-size: 3.5vw;
     }
 }
