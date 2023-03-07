@@ -1,0 +1,74 @@
+.backbutton{
+    margin: 3vw 5vw 0!important;
+}
+
+.speaker-title{
+    text-align: center;
+}
+
+.speaker-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw;
+}
+
+.speaker-image-container{
+    padding: auto;
+}
+
+.speaker-image{
+    width: 25vw;
+    height: 25vw;
+    display: block;
+}
+
+.speaker-bio{
+    width: 65vw;
+    display: flex;
+    text-align: justify;
+    font-size: 1.2vw;
+}
+
+.linkedinLogo{
+    width: 4vw;
+    height: 4vw;
+}
+
+@media only screen and (max-width: 600px)  {
+    .speaker-container{
+        padding: 5vw 5vw 0;
+    }
+    
+    .backbutton{
+        margin: 5vw auto!important;
+        display: flex!important;
+        font-size: 3vw!important;
+    }
+    
+    .speaker-title h5{
+        font-size: 4vw;
+    }
+
+    .speaker-container{
+        flex-direction: column;
+    }
+
+    .speaker-image{
+        width: 55vw;
+        height: 55vw;
+        margin: auto;
+    }
+
+    
+    .linkedinLogo{
+        width: 9vw;
+        height: 9vw;
+        margin: auto;
+        display: flex;
+    }
+
+    .speaker-bio{
+        width: 100%;
+        font-size: 3vw;
+    }
+}
