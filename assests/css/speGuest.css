@@ -13,12 +13,12 @@
 }
 
 .sg-cards .sgcard-item{
-    width: 30vw;
+    width: 25vw;
 
 }
 
 .sg-cards .sgcard-item img{
-    height: 50vh;
+    height: 48vh;
     width: 100%;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .sg-cards .sgcard-item .card-body .card-title{
-    font-size: 1.2vw;
+    font-size: 2vw;
     font-weight: bolder;
 }
 
