@@ -56,6 +56,9 @@
 
     .card-body{
         padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .card-title{
@@ -73,5 +76,9 @@
 
     .cd-btn{
         font-size: 3.5vw;
+    }
+
+    .sgcard-btn{
+        width: 19vw;
     }
 }

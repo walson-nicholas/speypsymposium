@@ -69,6 +69,8 @@
     }
 
     .cd-btn{
-        font-size: 3.5vw;
+        font-size: 2.5vw;
+        width: 19vw;
+        margin: 0 auto;
     }
 }
