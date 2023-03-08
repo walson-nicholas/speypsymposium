@@ -1,0 +1,65 @@
+.career-fair-container{
+    padding: 5vw;
+    background-color: navy;
+    color: white;
+}
+
+.section-title{
+    text-align: center;
+}
+
+.section-subtitle{
+    text-align: center;
+    padding-bottom: 1.5vw;
+    color: yellow;
+}
+
+.flyer-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flyer{
+    width: 25vw;
+    height: 65vh;
+}
+
+.flyer-explain{
+    width: 55vw;
+    border: 1px solid palegoldenrod;
+    border-radius: 3vw;
+    padding: 3vw;
+}
+
+.flyer-explain p{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px)  {
+    .flyer-row{
+        flex-direction: column;
+    }
+    
+    .flyer{
+        width: 100%;
+        height: 65vh;
+    }
+
+    .flyer-explain{
+        width: 100%;
+        margin-top: 5vh;
+    }
+
+    .section-subtitle{
+        font-size: 3.5vw;
+    }
+
+    .flyer-item-list{
+        font-size: 3vw;
+    }
+
+    .debate-reg-button{
+        display: flex;
+        margin: auto;
+    }
+}
