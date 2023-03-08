@@ -67,7 +67,7 @@ header .CountdownTimer{
 @media only screen and (max-width: 600px)  {
     header{
         background-position: center center;
-        padding: 10vh 2vw 2vw;
+        padding: 7vh 2vw 2vw;
         height: 100vh;
     }
 
