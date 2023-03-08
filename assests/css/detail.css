@@ -12,7 +12,7 @@
     text-align: justify;
     margin: 0 3vw 3vw;
     padding: 1vw;
-    font-size: 1.2  vw;
+    font-size: 1.3vw;
     background-color: gainsboro;
 }
 
@@ -40,7 +40,7 @@
     width: 65vw;
     display: flex;
     text-align: justify;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
 }
 
 .linkedinLogo{
@@ -49,6 +49,17 @@
 }
 
 @media only screen and (max-width: 600px)  {
+    .session-title{
+        font-size: 5vw;
+    }
+
+    .session-synopsis{
+        margin-bottom: 10vw;
+        font-size: 3.5vw;
+        margin: 0 4vw 3vw;
+        padding: 4vw;
+    }
+    
     .speaker-container{
         padding: 5vw 5vw 0;
     }
@@ -90,6 +101,6 @@
 
     .speaker-bio{
         width: 100%;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 }
