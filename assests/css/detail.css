@@ -2,6 +2,20 @@
     margin: 3vw 5vw 0!important;
 }
 
+.session-title{
+    text-align: center;
+    padding: 3vw;
+    margin-bottom: 0;
+}
+
+.session-synopsis{
+    text-align: justify;
+    margin: 0 3vw 3vw;
+    padding: 1vw;
+    font-size: 1.2  vw;
+    background-color: gainsboro;
+}
+
 .speaker-title{
     text-align: center;
 }
