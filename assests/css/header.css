@@ -60,6 +60,10 @@ header .CountdownTimer{
     width: 20vw;
 }
 
+.btn-register{
+    padding: 0.32vw;
+}
+
 @media only screen and (max-width: 600px)  {
     header{
         background-position: center center;
@@ -86,5 +90,9 @@ header .CountdownTimer{
 
     header .CountdownTimer{
         font-size: 5vw;
+    }
+
+    .btn-register{
+        padding: 3vw;
     }
 }
