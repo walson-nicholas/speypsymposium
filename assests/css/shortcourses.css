@@ -11,24 +11,35 @@
 
 .card-item{
     margin: 1vw;
-    width: 35vw;
+    width: 21vw;
 }
 
 .card-item img{
-    height: 24vw;
+    height: 18vw;
 }
 
 .card-item img:hover{
     filter: brightness(50%);
 }
 
+.card-body{
+    padding: 1vw;
+}
+
 .card-title{
-    font-size: 1.2vw;
+    font-size: 1.7vw;
     font-weight: bolder;
+    margin-bottom: 0.5vw;
 }
 
 .card-text{
+    font-size: 1.2vw;
+    margin-bottom: 0.5vw;
+}
+
+.card-text-two{
     font-size: 1vw;
+    margin-bottom: 0.5vw;
 }
 
 @media only screen and (max-width: 600px)  {
