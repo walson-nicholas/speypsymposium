@@ -60,7 +60,7 @@ header .CountdownTimer{
     width: 20vw;
 }
 
-.btn-register{
+.header-buttons .btn-register{
     padding: 0.32vw;
 }
 
@@ -92,7 +92,7 @@ header .CountdownTimer{
         font-size: 5vw;
     }
 
-    .btn-register{
+    .header-buttons .btn-register{
         padding: 3vw;
     }
 }
