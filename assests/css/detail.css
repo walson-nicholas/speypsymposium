@@ -102,5 +102,6 @@
     .speaker-bio{
         width: 100%;
         font-size: 3.5vw;
+        flex-direction: column;
     }
 }
