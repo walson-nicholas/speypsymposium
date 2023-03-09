@@ -2,7 +2,12 @@
     display: flex;
     justify-content: space-between;
     padding: 5vw 7.5vw;
-    background-color: #0F319E;
+    background-image: url("../img/themebackground.jpg");
+    background-color: rgba(0, 0, 0, 0.8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 .theme div{
