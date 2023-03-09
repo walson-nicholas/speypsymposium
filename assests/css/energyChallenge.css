@@ -1,0 +1,28 @@
+.energyChallenge-container{
+    padding: 5vw;
+    color: white;
+    background-image: url("../img/wind.png");
+    background-color: rgba(0, 0, 0, 0.65);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.energyChallenge-flyer{
+    width: 30vw;
+}
+
+#energyChallenge-flyerPara{
+    font-size: 1.1vw;
+    text-align: justify;
+}
+
+#energyChallenge-solutionsHeader{
+    color: yellow;
+    text-align: left;
+}
+
+#energyChallenge-flyerItemList{
+    font-size: 1.1vw;
+}

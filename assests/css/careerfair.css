@@ -1,7 +1,10 @@
 .career-fair-container{
     padding: 5vw;
-    background-color: navy;
     color: white;
+    background-image: url("../img/bluebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section-title{
@@ -28,7 +31,7 @@
     width: 55vw;
     border: 1px solid palegoldenrod;
     border-radius: 3vw;
-    padding: 3vw;
+    padding: 1.5vw;
 }
 
 .flyer-explain p{
