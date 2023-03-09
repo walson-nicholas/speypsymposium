@@ -26,3 +26,19 @@
 #energyChallenge-flyerItemList{
     font-size: 1.1vw;
 }
+
+@media only screen and (max-width: 600px)  {
+    .energyChallenge-flyer{
+        width: 100%;
+        height: 60vh;
+    }
+
+    #energyChallenge-flyerPara {
+        font-size: 4vw;
+    }
+
+    
+    #energyChallenge-flyerItemList{
+        font-size: 3.5vw;
+    }
+}
