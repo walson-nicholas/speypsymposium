@@ -50,6 +50,7 @@
 
     .special_Guest_container h2{
         font-size: 6vw;
+        padding-bottom: 3vw;
     }
     .sg-cards{
         flex-direction: column;
@@ -58,7 +59,7 @@
 
     .sg-cards .sgcard-item{
         margin: 0;
-        margin-bottom: 6vh;
+        margin-bottom: 3vh;
         width: 100%;
         flex-direction: row;
     }
