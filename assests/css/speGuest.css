@@ -9,7 +9,7 @@
 .sg-cards{
     display: flex;
     justify-content: space-between;
-    padding: 4vh 10vw;
+    padding: 4vh 5vw;
 }
 
 .sg-cards .sgcard-item{
@@ -68,6 +68,7 @@
         height: 40vw;
         max-width: 40vw;
         margin-right: 2vw;
+        width: 35vw;
     }
 
     .sg-cards .sgcard-item .card-body .card-title{
