@@ -32,6 +32,8 @@
 .sponsor-logo-wrap{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .sponsors-wrap img{
@@ -67,5 +69,9 @@
 
     .platinum-sponsors{
         margin-bottom: 7vw;
+    }
+
+    #scopex{
+        margin-top: 3vw;
     }
 }
