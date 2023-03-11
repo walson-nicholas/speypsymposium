@@ -21,11 +21,15 @@
     width: 55vw;
     border: 1px solid palegoldenrod;
     border-radius: 3vw;
-    padding: 1.5vw;
+    padding: 1vw;
 }
 
 .flyer-explain p{
     text-align: center;
+}
+
+.careerFair-callToAction{
+    margin: auto;
 }
 
 @media only screen and (max-width: 600px)  {

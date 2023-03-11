@@ -9,6 +9,12 @@
     background-blend-mode: darken;
 }
 
+.energyChallenge-section-subtitle{
+    color: yellow;
+    font-size: 1.7vw;
+    margin-bottom: 1.5vw;
+}
+
 .energyChallenge-flyer{
     width: 30vw;
 }
@@ -16,15 +22,38 @@
 #energyChallenge-flyerPara{
     font-size: 1.1vw;
     text-align: justify;
+    margin-bottom: 0.3vw;
 }
 
 #energyChallenge-solutionsHeader{
     color: yellow;
     text-align: left;
+    font-size: 1.2vw;
+    margin-bottom: 0.3vw;
 }
 
 #energyChallenge-flyerItemList{
     font-size: 1.1vw;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1vw;
+    margin-bottom: 0.3vw;
+}
+
+th{
+    color: yellow;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 0.5vw;
+}
+
+tr:nth-child(even) {
+    background-color: peru;
 }
 
 @media only screen and (max-width: 600px)  {
@@ -33,12 +62,27 @@
         height: 60vh;
     }
 
+    #energyChallenge-solutionsHeader{
+        font-size: 4.2vw;
+        text-align: center;
+    }
+
     #energyChallenge-flyerPara {
         font-size: 4vw;
+    }
+
+    table{
+        font-size: 3vw;
+        margin-bottom: 4vw;
     }
 
     
     #energyChallenge-flyerItemList{
         font-size: 3.5vw;
+    }
+
+    .careerFair-callToAction {
+        font-size: 4vw;
+        margin-bottom: 4vw;
     }
 }
