@@ -13,7 +13,7 @@ body {
 
 .section-title{
   text-align: center;
-  font-size: 5.5vw;
+  font-size: 2.5vw;
 }
 
 .section-subtitle{
@@ -107,6 +107,10 @@ body {
 @media only screen and (max-width: 600px)  {
   .section-container{
     padding: 15vw 5vw 5vw;
+  }
+
+  .section-title{
+    font-size: 5.5vw;
   }
   
   .card-section{
