@@ -13,7 +13,7 @@ body {
 
 .section-title{
   text-align: center;
-  font: 3.5vw;
+  font-size: 5.5vw;
 }
 
 .section-subtitle{
@@ -115,7 +115,7 @@ body {
 
   .cards-container{
     width: 100%;
-    margin: 0 0 3vw;
+    margin: 0 0 5vw;
     height: 33vw;
   }
 
