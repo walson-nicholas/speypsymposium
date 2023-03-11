@@ -8,7 +8,7 @@ body {
 }
 
 .section-container{
-  margin: 3vw 5vw 0;
+  padding: 3vw 5vw 0;
 }
 
 .section-title{
@@ -92,8 +92,23 @@ body {
   color: white;
 }
 
+#panel-section{
+  background-color: #DFE0D8;
+}
+
+#breakout-section{
+  background-color: gray;
+}
+
+#shortCourse-section{
+  background-color: azure;
+}
 
 @media only screen and (max-width: 600px)  {
+  .section-container{
+    padding: 5vw;
+  }
+  
   .card-section{
       flex-direction: column;
   }
