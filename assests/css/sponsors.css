@@ -5,12 +5,42 @@
 .sponsors-wrap{
     display: flex;
     padding: 4vw 0;
+    justify-content: center;
+}
+
+.sponsor-category{
+    text-align: center;
+    margin: auto;
+    background: #E7E9EB;
+    padding: 2vw 4vw;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.sponsor-category h6{
+    margin-bottom: 3vw;
+}
+
+.sponsor-category h6 span{
+    color: #937522;
+}
+
+.sponsor-logo-wrap{
+    display: flex;
     justify-content: space-around;
 }
 
 .sponsors-wrap img{
-    width: 30vw;
-    height: 25vw;
+    height: 7vw;
+}
+
+#jevant-spencer{
+    margin-right: 5vw;
+}
+
+.sponsor-divide{
+    border: 1px solid black;
+    height: 16vw;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px)  {
@@ -22,9 +52,19 @@
         flex-direction: column;
     }
 
+    .sponsor-divide{
+        display: none;
+    }
+
+    .sponsor-category{
+        width: 80vw;
+    }
+
     .sponsors-wrap img{
-        width: 100%;
-        height: 70vw;
-        padding-bottom: 5vw;
+        height: 12vw;
+    }
+
+    .platinum-sponsors{
+        margin-bottom: 7vw;
     }
 }
