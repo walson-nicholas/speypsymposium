@@ -7,6 +7,15 @@ body {
   margin: 0;
 }
 
+.split-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.split-section-sub{
+  width: 40vw;
+}
+
 .section-container{
   padding: 6vw 5vw 0;
 }
@@ -104,9 +113,21 @@ body {
   background-color: azure;
 }
 
+#host-section{
+  background-color: #F2F2F2;;
+}
+
 @media only screen and (max-width: 600px)  {
   .section-container{
     padding: 15vw 5vw 5vw;
+  }
+
+  .split-section{
+    flex-direction: column;
+  }
+
+  .split-section-sub{
+    width: 100%;
   }
 
   .section-title{
