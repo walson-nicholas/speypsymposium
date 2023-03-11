@@ -11,9 +11,14 @@
 .sponsor-category{
     text-align: center;
     margin: auto;
-    background: #E7E9EB;
     padding: 2vw 4vw;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: white;
+    border-radius: 1vw;
+}
+
+.bronze-sponsors{
+    width: 60vw;
 }
 
 .sponsor-category h6{
@@ -30,16 +35,12 @@
 }
 
 .sponsors-wrap img{
-    height: 7vw;
-}
-
-#jevant-spencer{
-    margin-right: 5vw;
+    height: 5vw;
 }
 
 .sponsor-divide{
-    border: 1px solid black;
-    height: 16vw;
+    border: 1px solid #937522;
+    height: 14vw;
     margin: 0;
 }
 

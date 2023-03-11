@@ -33,8 +33,8 @@
 }
 
 .theme img{
-    width: 35vw;
-    max-height: 80vh;
+    width: 33vw;
+    max-height: 82vh;
 }
 
 @media only screen and (max-width: 600px)  {

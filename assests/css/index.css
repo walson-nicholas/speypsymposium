@@ -117,6 +117,10 @@ body {
   background-color: #F2F2F2;;
 }
 
+#sponsor-section{
+  background-color: #E7E9EB;
+}
+
 @media only screen and (max-width: 600px)  {
   .section-container{
     padding: 15vw 5vw 5vw;
