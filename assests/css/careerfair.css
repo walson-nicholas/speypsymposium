@@ -7,16 +7,6 @@
     background-size: cover;
 }
 
-.section-title{
-    text-align: center;
-}
-
-.section-subtitle{
-    text-align: center;
-    padding-bottom: 1.5vw;
-    color: yellow;
-}
-
 .flyer-row{
     display: flex;
     justify-content: space-between;
