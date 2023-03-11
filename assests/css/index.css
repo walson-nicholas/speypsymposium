@@ -8,7 +8,7 @@ body {
 }
 
 .section-container{
-  padding: 3vw 5vw 0;
+  padding: 6vw 5vw 0;
 }
 
 .section-title{
@@ -106,33 +106,33 @@ body {
 
 @media only screen and (max-width: 600px)  {
   .section-container{
-    padding: 5vw;
+    padding: 15vw 5vw 5vw;
   }
   
   .card-section{
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .cards-container{
-      width: 80vw;
-      margin: 0 auto 3vw;
-      height: 27vw;
+    width: 100%;
+    margin: 0 0 3vw;
+    height: 33vw;
   }
 
   .card-writeup{
-      padding: 1vw 1vw 1vw 2vw;
+    padding: 1vw 1vw 1vw 2vw;
   }
 
   .speaker-name{
-      font-size: 4vw;
+      font-size: 4.3vw;
   }
 
   .speaker-title{
-      font-size: 2.3vw;
+      font-size: 2.7vw;
   }
 
   .speaker-subtitle{
-      font-size: 2vw;
+      font-size: 2.5vw;
   }
 
   .speaker-bio{
@@ -140,6 +140,6 @@ body {
   }
 
   .call-to-action{
-      font-size: 2vw;
+      font-size: 2.4vw;
   }
 }
