@@ -7,7 +7,7 @@
     background-size: cover;
 }
 
-.section-subtitle{
+.careerFair-subtitle{
     color: yellow;
 }
 
@@ -32,6 +32,10 @@
     text-align: center;
 }
 
+.flyer-explain p:nth-of-type(2){
+    color: yellow;
+}
+
 .careerFair-callToAction{
     margin: auto;
 }
@@ -53,16 +57,17 @@
 
     .section-subtitle{
         font-size: 3.5vw;
-        color: yellow;
         margin-bottom: 4vw;
     }
 
     .flyer-item-list{
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .debate-reg-button{
         display: flex;
         margin: auto;
+        font-size: 3.2vw;
+        margin-bottom: 5vw;
     }
 }
