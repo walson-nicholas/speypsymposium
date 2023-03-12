@@ -1,5 +1,5 @@
 .energyChallenge-container{
-    padding: 6.2vw;
+    padding: 15vw 5vw 5vw;
     color: white;
     background-image: url("../img/wind.png");
     background-color: rgba(0, 0, 0, 0.65);
@@ -57,9 +57,14 @@ tr:nth-child(even) {
 }
 
 @media only screen and (max-width: 600px)  {
+    .energyChallenge-section-subtitle{
+        font-size: 3vw;
+        margin-bottom: 3.5vw;
+    }
+
     .energyChallenge-flyer{
         width: 100%;
-        height: 60vh;
+        height: 57vh;
     }
 
     #energyChallenge-solutionsHeader{
