@@ -1,5 +1,5 @@
 .career-fair-container{
-    padding: 15vw 5vw 5vw;
+    padding: 6vw 5vw;
     color: white;
     background-image: url("../img/bluebackground.jpg");
     background-position: center;
@@ -41,6 +41,10 @@
 }
 
 @media only screen and (max-width: 600px)  {
+    .career-fair-container{
+        padding: 15vw 5vw 5vw;
+    }
+    
     .flyer-row{
         flex-direction: column;
     }
