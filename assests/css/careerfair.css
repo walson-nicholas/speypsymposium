@@ -9,6 +9,7 @@
 
 .careerFair-subtitle{
     color: yellow;
+    margin-bottom: 2vw;
 }
 
 .flyer-row{
@@ -25,7 +26,7 @@
     width: 55vw;
     border: 1px solid palegoldenrod;
     border-radius: 3vw;
-    padding: 1vw;
+    padding: 3vw;
 }
 
 .flyer-explain p{
