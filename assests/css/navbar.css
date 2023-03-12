@@ -5,6 +5,7 @@ nav{
     background: white!important;
     width: 100%;
     z-index: 5;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.09);
 }
 
 .inNav{
