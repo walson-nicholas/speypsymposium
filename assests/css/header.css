@@ -58,6 +58,8 @@ header .CountdownTimer{
 
 .header-buttons button{
     width: 20vw;
+    height: 4vw;
+    font-size: 1.2vw;
 }
 
 .header-buttons .btn-register{
@@ -84,8 +86,9 @@ header .CountdownTimer{
     }
 
     .header-buttons button{
-        font-size: 2.5vw;
+        font-size: 2vw;
         width: 25vw;
+        height: 11vw;
     }
 
     header .CountdownTimer{
