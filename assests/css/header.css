@@ -121,12 +121,18 @@ header .CountdownTimer{
 
     .header-buttons{
         width: 90vw;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-buttons a{
+        margin-bottom: 2vw;
     }
 
     .header-buttons button{
-        font-size: 1.6vw;
-        width: 20vw;
-        height: 9vw;
+        font-size: 2.2vw;
+        width: 31vw;
+        height: 8vw;
         padding: 0.5vw;
     }
 
