@@ -17,7 +17,7 @@ body {
 }
 
 .section-container{
-  padding: 6vw 5vw 0;
+  padding: 6vw 4vw 0;
 }
 
 .section-title{
@@ -39,8 +39,8 @@ body {
 
 .cards-container{
   display: flex;
-  width: 40vw;
-  height: 13.3vw;
+  width: 42vw;
+  height: 14vw;
   background: #E7E9EB;
   margin-bottom: 2vw;
   border-radius: 2vw;
