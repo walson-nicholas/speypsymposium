@@ -89,13 +89,19 @@ header .CountdownTimer{
 }
 
 .header-buttons button{
-    width: 20vw;
+    width: 15vw;
     height: 4vw;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
+    padding: 0.4vw;
 }
 
 .header-buttons .btn-register{
     padding: 0.32vw;
+}
+
+.header-buttons .btn-brochure{
+    background-color: #800080;
+    color: white;
 }
 
 @media only screen and (max-width: 600px)  {
@@ -118,16 +124,13 @@ header .CountdownTimer{
     }
 
     .header-buttons button{
-        font-size: 2vw;
-        width: 25vw;
-        height: 11vw;
+        font-size: 1.6vw;
+        width: 20vw;
+        height: 9vw;
+        padding: 0.5vw;
     }
 
     header .CountdownTimer{
         font-size: 5vw;
-    }
-
-    .header-buttons .btn-register{
-        padding: 3vw;
     }
 }
