@@ -52,8 +52,14 @@ td, th {
     padding: 0.5vw;
 }
 
+tr:nth-child(odd) {
+    background-color: #092650;
+    color: white;
+}
+
 tr:nth-child(even) {
-    background-color: peru;
+    background-color: white;
+    color: blue;
 }
 
 @media only screen and (max-width: 600px)  {
