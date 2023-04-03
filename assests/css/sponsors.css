@@ -11,18 +11,15 @@
 .sponsor-category{
     text-align: center;
     margin: auto;
-    padding: 2vw 4vw;
+    padding: 2vw;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background-color: white;
     border-radius: 1vw;
 }
 
-.bronze-sponsors{
-    width: 60vw;
-}
-
 .sponsor-category h6{
     margin-bottom: 3vw;
+    font-size: 1.5vw;
 }
 
 .sponsor-category h6 span{
@@ -42,8 +39,12 @@
 
 .sponsor-divide{
     border: 1px solid #937522;
-    height: 14vw;
+    height: 15vw;
     margin: 0;
+}
+
+.bronze-sponsors{
+    width: 50vw;
 }
 
 @media only screen and (max-width: 600px)  {
