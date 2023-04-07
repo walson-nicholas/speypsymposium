@@ -11,7 +11,7 @@
 }
 
 .theme div{
-    width: 45vw;
+    width: 48vw;
 }
 
 .theme div p{
@@ -33,8 +33,8 @@
 }
 
 .theme img{
-    width: 33vw;
-    max-height: 82vh;
+    width: 30vw;
+    max-height: 80vh;
 }
 
 @media only screen and (max-width: 600px)  {
