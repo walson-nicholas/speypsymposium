@@ -11,15 +11,15 @@
 .sponsor-category{
     text-align: center;
     margin: auto;
-    padding: 2vw;
+    padding: 1.2vw;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background-color: white;
     border-radius: 1vw;
 }
 
 .sponsor-category h6{
-    margin-bottom: 3vw;
-    font-size: 1.5vw;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
 }
 
 .sponsor-category h6 span{
@@ -34,17 +34,21 @@
 }
 
 .sponsors-wrap img{
-    height: 5vw;
+    height: 4vw;
+}
+
+#goldSponsor{
+    width: 13vw;
 }
 
 .sponsor-divide{
     border: 1px solid #937522;
-    height: 15vw;
+    height: 10vw;
     margin: 0;
 }
 
 .bronze-sponsors{
-    width: 50vw;
+    width: 35vw;
 }
 
 @media only screen and (max-width: 600px)  {
@@ -63,9 +67,19 @@
     .sponsor-category{
         width: 80vw;
     }
+    
+    .sponsor-category h6{
+        margin-bottom: 3vw;
+        font-size: 3.5vw;
+    }
 
     .sponsors-wrap img{
         height: 12vw;
+    }
+
+    
+    #goldSponsor{
+        width: initial;
     }
 
     .platinum-sponsors{
